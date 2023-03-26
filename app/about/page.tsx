@@ -1,8 +1,11 @@
+import Link from 'next/link'
 import React from 'react'
 
 const About = () => {
   return (
-    <div>About</div>
+    <main className='py-4 px-32'>
+      <Link className='bg-teal-500 text-center text-black font-semibold' href="/dashboard">Dashboard</Link>
+    </main>
   )
 }
 
